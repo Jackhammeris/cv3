@@ -94,6 +94,17 @@ p {
 
 /* ______greeting CSS______ */
 
+.margin-opacity-top {
+  padding-top: 20px;
+  opacity: 0.4;
+}
+
+.margin-opacity {
+  margin-top: 35px;
+  opacity: 0.4;
+}
+
+
 
 .greeting {
 

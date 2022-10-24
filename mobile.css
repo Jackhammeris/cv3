@@ -270,6 +270,7 @@ text-align: left;
 
 .greeting-hi {
   line-height: 70px;
+  opacity: 0;
 }
 
 .greeting-iam {
@@ -325,11 +326,12 @@ text-align: left;
 
   .greeting-hi {
     line-height: 70px;
+    opacity: 0;
   }
 
   .greeting-iam {
     opacity: 0;
-    margin-left: 200px;
+    margin-left: 100px;
   }
 
 
@@ -362,6 +364,12 @@ text-align: left;
 
 }
 /* _________about CSS_________ */
+
+.margin-opacity-top {
+  padding-top: 25px;
+  opacity: 0.4;
+}
+
 
 
 #about.section-main {

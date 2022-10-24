@@ -22,6 +22,35 @@ function randomizeris() {
     };
   };
 }
+
+
+
+// $(".margin-opacity").waypoint(function() {
+//
+//   $(this).animate({
+//         marginTop: '0',
+//         opacity: 1
+//       }, 300);
+//
+// },{offset:'bottom-in-view'});
+
+$('.margin-opacity').waypoint(function() {
+        $('#' + this.element.id).animate({
+              padding: '0',
+              opacity: 1
+            }, 300);
+    }, {offset:'80%' });
+
+
+// var waypoint2 = new Waypoint({
+//   element: document.getElementById('about-waypoint2'),
+//   handler: function(direction) {
+//
+//     alert('You have scrolled to a thing.');
+//   },
+//   offset: 'bottom-in-view'
+//
+// });
 // --------------------------navigacijos animacijos
 
 $(".header-title").mouseenter(
@@ -40,26 +69,6 @@ $(".header-title").mouseenter(
   }
 );
 
-// var waypoint1 = new Waypoint({
-//   element: document.getElementById('about-waypoint1'),
-//   handler: function(direction) {
-//
-//     $(".navbar").delay(0).animate({
-//       marginRight: "8%"
-//     }, 500);
-//
-//     $(".header-title").delay(0).animate({
-//       marginLeft: "8%"
-//     }, 500);
-//
-//
-//     $(".about-heading").animate({
-//       marginLeft: '0',
-//       opacity: 1
-//     }, 300);
-//   },
-//   offset: 'bottom-in-view'
-// });
 
 function animacijos() {
   if ($(window).width() < 992) {
@@ -106,7 +115,7 @@ $(document).ready(function() {
   $(".greeting-pic-small").animate({
     opacity: 1
 
-  }, 300);
+  }, 400);
 
   var spotas = 0;
   var delejus = 1700;
@@ -142,7 +151,7 @@ $(document).ready(function() {
     opacity: 1
   }, 300);
 
-  $(".greeting-who").delay(1200).animate({
+  $(".greeting-who").delay(1400).animate({
     marginLeft: '0',
     opacity: 1
   }, 300);
@@ -402,20 +411,34 @@ const hole_elem = document.querySelector(".hole");
 hole_elem.style.clipPath = makeCircleHoleClipPathRule(235);
 
 
+
+
+
+
 // ---------------------Load animacijos about
 
-var waypoint2 = new Waypoint({
-  element: document.getElementById('about-waypoint2'),
-  handler: function(direction) {
+// var waypoint1 = new Waypoint({
+//   element: document.getElementById('about-waypoint1'),
+//   handler: function(direction) {
+//
+//     $(".navbar").delay(0).animate({
+//       marginRight: "8%"
+//     }, 500);
+//
+//     $(".header-title").delay(0).animate({
+//       marginLeft: "8%"
+//     }, 500);
+//
+//
+//     $(".about-heading").animate({
+//       marginLeft: '0',
+//       opacity: 1
+//     }, 300);
+//   },
+//   offset: 'bottom-in-view'
+// });
 
-    $(".div-about").animate({
-      marginLeft: '0',
-      opacity: 1
-    }, 300);
-  },
-  offset: 'bottom-in-view'
 
-});
 
 // ---------------------Load animacijos Experience
 
