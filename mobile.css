@@ -1,26 +1,21 @@
 /* bendras CSS */
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 h1 {
   font-size: 60px;
   font-weight: 900;
   /* line-height: 100px; */
-  color: #212530;
+  color: #E79E4F;
   margin-bottom: 30px;
-}
-
-.greeting-name {
-  opacity: 0;
-  font-size: 90px;
 }
 
 h2 {
   font-size: 45px;
   font-weight: 900;
   /* line-height: 100px; */
-  color: #212530;
+  color: #E79E4F;
   margin-bottom: 30px;
 }
 
@@ -28,7 +23,7 @@ h3 {
   font-size: 30px;
   font-weight: 600;
   /* line-height: 100px; */
-  color: #212530;
+  color: #E79E4F;
   margin-bottom: 30px;
 }
 
@@ -36,8 +31,16 @@ p {
   font-size: 25px;
   font-weight: 400;
   line-height: 35px;
-  color: #63666D;
+  color: #E79E4F;
 }
+
+.greeting-name {
+
+  opacity: 0;
+  font-size: 90px;
+}
+
+
 
 
 @media (max-width: 750px) {
@@ -45,8 +48,8 @@ p {
   h1 {
     font-size: 50px;
     font-weight: 900;
-    /* line-height: 100px; */
-    color: #212530;
+
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
@@ -58,35 +61,41 @@ p {
   h2 {
     font-size: 35px;
     font-weight: 900;
-    /* line-height: 100px; */
-    color: #212530;
+
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
   h3 {
     font-size: 20px;
     font-weight: 600;
-    /* line-height: 100px; */
-    color: #212530;
+
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 35px;
-    color: #63666D;
+    color: #E79E4F;
+  }
+
+  li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 35px;
   }
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 
   h1 {
     font-size: 40px;
     font-weight: 900;
     /* line-height: 100px; */
-    color: #212530;
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
@@ -96,27 +105,33 @@ p {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 900;
     /* line-height: 80px; */
     /* line-height: 100px; */
-    color: #212530;
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 600;
     /* line-height: 100px; */
-    color: #212530;
+    color: #E79E4F;
     margin-bottom: 30px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 35px;
-    color: #63666D;
+    line-height: 25px;
+    color: #E79E4F;
+  }
+
+  li {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
   }
 
 }
@@ -125,11 +140,11 @@ p {
   text-align: right;
 }
 
-.main-div {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 8%;
-  padding-right: 8%;
+.section-main {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 /* headerio CSS */
@@ -141,36 +156,65 @@ p {
 
 .header-title {
   margin-left: 8%;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .vardas-raide {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 3rem;
   font-weight: 800;
   margin-right: -4px;
-  color: #212530;
+  color: #F7E2E2;
 }
 
 .vardas {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: 2px;
-  color: #212530;
+  color: #F7E2E2;
 }
 
 .pavarde {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #212530;
+  color: #F7E2E2;
+}
+
+@media (max-width: 600px) {
+
+  .vardas-raide {
+    opacity: 1;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: -4px;
+    color: #F7E2E2;
+  }
+
+  .vardas {
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #F7E2E2;
+  }
+
+  .pavarde {
+    opacity: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #F7E2E2;
+  }
+
+
 }
 
 .navigacija-linkas {
-  opacity: 0.7;
-  color: #212530;
+  opacity: 1;
+  color: #F7E2E2;
   margin-left: 7px;
   font-weight: 600;
   margin-top: 40px;
@@ -183,60 +227,49 @@ p {
   display: none;
 }
 
+.background-pic {
+  position: absolute;
+}
+
+.overflow2 {
+z-index: -1;
+overflow: hidden;
+position: absolute;
+background-color: black;
+}
+
 .greeting-small {
-  background-color: #E9EAEC;
+  background-color: transparent;
 }
-
-.greeting-picture {
-  display: flex;
-  justify-content: center;
-}
-
 
 .greeting-pic-small {
-  width: 70%;
+  margin-left: 5%;
+  margin-top: 15%;
+  width: 90%;
   border-radius: 100%;
+  opacity: 0;
 }
 
-.greeting-pic:hover {
-  filter: brightness(80%);
-}
-
-.hole {
-  visibility: hidden;
-  margin: 0;
-  z-index: 1;
-  position: absolute;
-  background-color: #E9EAEC;
-  width: 50%;
-  position: absolute;
-}
+@media (min-width: 600px) {
 
 .main-div-hi {
 
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20%;
-  /* margin-bottom: 100px; */
+  margin-bottom: 50px;
+  width: 350px;
 
 }
 
-.main-div-greeting {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  padding-left: 8%;
-  padding-right: 8%;
-  flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-}
 
 .greeting-first {
-text-align: center;
+text-align: left;
 
 }
 
 .greeting-hi {
-  /* margin-left: 100px; */
-  /* opacity: 0; */
+  line-height: 70px;
 }
 
 .greeting-iam {
@@ -247,14 +280,13 @@ text-align: center;
 
 .div-who {
   margin-top: 18px;
-  position: absolute;
-  margin-left: 30%;
+  /* position: absolute; */
+  margin-left: 20%;
 }
 
 .who {
   text-align: left;
   line-height: 35px;
-  margin-left: 30%;
   margin-bottom: 100px;
 }
 
@@ -269,112 +301,263 @@ text-align: center;
 }
 
 .greeting-who {
-  text-align: center;
+  text-align: left;
   opacity: 0;
 }
+}
 
-/* about CSS */
-.about {
+@media (max-width: 600px) {
+
+  .main-div-hi {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 50px;
+    width: 300px;
+
+  }
+
+
+  .greeting-first {
+  text-align: left;
+
+  }
+
+  .greeting-hi {
+    line-height: 70px;
+  }
+
+  .greeting-iam {
+    opacity: 0;
+    margin-left: 200px;
+  }
+
+
+  .div-who {
+    margin-top: 18px;
+    /* position: absolute; */
+    margin-left: 20%;
+  }
+
+  .who {
+    text-align: left;
+    line-height: 35px;
+    margin-bottom: 100px;
+  }
+
+  .who2 {
+    margin-top: -90px;
+  }
+
+  .hope {
+    font-size: 10px;
+    text-align: right;
+    margin-top: -30px;
+  }
+
+  .greeting-who {
+    text-align: left;
+    opacity: 0;
+  }
+
+}
+/* _________about CSS_________ */
+
+
+#about.section-main {
   position: relative;
-  background-image: url(images/dream2.jpg);
-  z-index: 2;
-}
-
-.about-title {
-  padding-top: 150px;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.about-text {
-  margin-right: 30%;
-}
-
-.div-about {
-  margin-left: -8%;
-  opacity: 0.5;
-  padding-bottom: 150px;
-  padding-left: 8%;
-  padding-right: 8%;
+  background-color: rgba(231, 158, 79, .7);
+  z-index: 10;
 }
 
 .about-heading {
-  margin-left: -8%;
-  opacity: 0.5;
+  text-align: center;
+  color: #1A1C20;
 }
 
-/* exp CSS */
-.exp {
-  background-color: #E9EAEC;
+.about-text {
+  text-align: center;
+  color: #1A1C20;
+}
+
+.skills-heading {
+  text-align: center;
+  color: #1A1C20;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.skill-list {
+  font-size: 25px;
+  font-weight: 400;
+  display: table;
+  margin: 0 auto;
+}
+
+/* __________exp CSS_________ */
+
+
+#experience.section-main {
+  background-color: rgba(15, 16, 19, 1);
+  position: relative;
+  z-index: 1;
 }
 
 .exp-heading {
   text-align: center;
-  margin-bottom: 100px;
+  color: #E79E4F;
+}
+
+.exp-heading-2 {
+  text-align: center;
+  margin-top: 15%;
+  color: #E79E4F;
+}
+
+.exp-row {
+  margin-top: 15%;
 }
 
 .exp-name {
-  text-align: right;
-  padding-right: 50px;
+  margin-bottom: 20px;
+  color: #E79E4F;
 }
 
-.exp-text {}
-
-.exp-row {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.exp-date {
+  color: #F7E2E2;
+  margin-right: 10px;
+  font-weight: 600;
 }
 
-.main-div-exp {}
+.exp-work {
+  color: gray;
+}
 
-.btn-more {
+.exp-details {
+  color: #F7E2E2;
+}
+
+.exp-descr {
+  color: #F7E2E2;
+  margin-bottom: 0;
+}
+
+.button-more:hover {
+  color: #F7E2E2;
+}
+
+.button-more {
+  padding-left: 0;
   border: none;
+  background-color: transparent;
+  color: #E79E4F;
   background-color: inherit;
-  color: blue;
 }
 
-.btn-more:hover {
-  color: red;
+
+/* _________Hobbies__________ */
+
+#hobbies {
+  position: relative;
+  z-index: 1;
 }
 
-/* @media (max-width: 1500px) {
-  .main-div-hi {
-    margin-left: 55%;
+#hobbies.section-main {
+  background-color: rgba(231, 158, 79, .97);
+}
+
+#back2 {
+  visibility: hidden;
+}
+
+.hobbies-heading {
+  text-align: center;
+  margin-bottom: 15%;
+  color: #1A1C20;
+}
+
+.hobbies-text {
+
+  line-height: 1.5;
+  color: #1A1C20;
+  text-align: center;
+  height: 100px;
+  font-weight: 600;
+
+}
+
+.hobbies-image {
+
+  width: 70%;
+  border-radius: 10%;
+}
+
+.hobbies-image-div {
+  text-align: center;
+}
+
+.hobbies-fb {
+  color: #1A1C20;
+}
+
+.hobbies-fb:hover {
+color: #F7E2E2;
+}
+
+/* _________Contact__________ */
+
+#contacts.section-main {
+background-color: rgba(15, 16, 19, 0.97);
+position: relative;
+z-index: 2;
+
+}
+
+.contacts-heading {
+text-align: center;
+margin-left: 0;
+}
+
+.contacts-list {
+margin-left: -30px;
+list-style-type: none;
+}
+
+.contacts-icon {
+  font-size: 2.5rem;
+  margin-top: 25px;
+  color: #F7E2E2;
+  margin-right: 15px;
+}
+
+.contacts-icon:hover {
+color: #E79E4F;
+}
+
+.list-text {
+font-size: 1.5rem;
+color: #F7E2E2;
+}
+
+.footer {
+  margin-top: 15%;
+  text-align: center;
+  color: #F7E2E2;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+
+  .contacts-icon {
+    font-size: 2rem;
+    margin-top: 25px;
+    color: #F7E2E2;
+    margin-right: 15px;
   }
-} */
 
+  .list-text {
+  font-size: 1rem;
+  color: #F7E2E2;
+  }
 
-/* Pavyzdziai fonts
-
-.header-1 {
-font-family: 'Open Sans', Arial, sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-letter-spacing: normal;
-line-height: 120px;
-text-transform: uppercase;
-color: #FFFFFF;
 }
-
-.content-1 {
-font-family: 'Helvetica Neue', Arial, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-letter-spacing: 0.899999976158142px;
-line-height: 24px;
-text-transform: none;
-color: #FFFFFF;
-}
-
-.content-2 {
-font-family: 'Helvetica Neue', Arial, sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 800;
-letter-spacing: 0.699999988079071px;
-line-height: 20px;
-text-transform: uppercase;
-color: #FFFFFF;
-} */
